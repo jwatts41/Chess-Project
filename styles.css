@@ -25,8 +25,12 @@ body {
 
 .rows {
     height: 79px;
-    color: red;
     border: 1px solid gold;
+}
+
+.checkers {
+    height: 50px;
+    width: 50px
 }
 
 
