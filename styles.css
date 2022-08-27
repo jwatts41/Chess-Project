@@ -1,28 +1,32 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 body {
-    background-color: #202123;
-    
-    
+    background-color: #202123;   
+
 }
 
-div {
+ /*div {
     margin-left: 475px;
     margin-right: 100px;
     margin-top: 100px;
     margin-bottom: 80px;
     
-}
-.chessboard {
+ }*/
+#chessboard {
     display: grid;
-    grid-template-columns: repeat(8, 80px);
-    grid-auto-flow: column;
+    grid-template-rows: repeat(8, 1fr);
     border: 2px solid red;
-    justify-content: center;
-    align-items: center;
     height: 640px;
     width: 640px;
-
 }
 
-
+.rows {
+    height: 50px;
+    color: red;
+    border: 1px solid white;
+}
 
 
