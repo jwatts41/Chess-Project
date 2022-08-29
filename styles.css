@@ -10,7 +10,7 @@ body {
 #chessboard{
     height: 640px;
     width: 640px;
-    border: 5px solid red;
+    border: 5px solid gray;
     margin: 125px;
     position: absolute;
     left: 375px;
@@ -31,7 +31,17 @@ body {
     width: 78px;
     border: 1px solid white;
     float: right;
-    
 }
+
+img {
+    height: 60px;
+    width: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+
+
 
 
