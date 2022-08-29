@@ -17,4 +17,21 @@ body {
     
 }
 
+.red {
+    background-image: linear-gradient(darkred, red, darkred);
+    height: 78px;
+    width: 78px;
+    border: 1px solid white;
+    float: right;
+}
+
+.silver {
+    background-image: linear-gradient(gainsboro, grey, gainsboro);
+    height: 78px;
+    width: 78px;
+    border: 1px solid white;
+    float: right;
+    
+}
+
 
