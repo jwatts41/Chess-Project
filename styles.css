@@ -5,10 +5,10 @@
 
 body {
     background-color: #202123; 
-    background-image: url('https://images.unsplash.com/photo-1588412079929-790b9f593d8e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8Y2hlc3N8ZW58MHx8MHx8&w=1000&q=80');
-    background-repeat: no-repeat;
+    background-image: url('assets/Chess_Background.jpg');
     background-size: cover;
-    opacity: 0.95;
+    
+    
     
 }
 
