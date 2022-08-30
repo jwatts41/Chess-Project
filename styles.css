@@ -7,8 +7,7 @@ body {
     background-color: #202123; 
     background-image: url('assets/Chess_Background.jpg');
     background-size: cover;
-    
-    
+    background-repeat: no-repeat;
     
 }
 
@@ -47,9 +46,12 @@ img {
     margin-top: 5px;
 }
 
-h1 {
+p {
     color: white;
+}
 
+h1 {
+    color: white
 }
 
 
