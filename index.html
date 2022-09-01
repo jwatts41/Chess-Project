@@ -11,79 +11,81 @@
 <body>
     <H1>WolfPack Chess</H1>
     <p class="teamBlack">Team Black</p>
-    <div id="chessboard">
-        <div class="red"> <img src="assets/Black_Chess_Rook.png" alt="black chess rook"/></div>
-        <div class="silver"><img src="assets/Black_Chess_Knight.png" alt="black chess knight"/></div>
-        <div class="red"><img src="assets/Black_Chess_Bishop.png" alt="black chess bishop"/></div>
-        <div class="silver"><img src="assets/Black_Chess_King.png" alt="black chess king"/></div>
-        <div class="red"><img src="assets/Black_Chess_Queen.png" alt="black chess queen" /></div>
-        <div class="silver"><img src="assets/Black_Chess_Bishop.png" alt="black chess bishop"/></div>
-        <div class="red"><img src="assets/Black_Chess_Knight.png" alt="black chess knight"/></div>
-        <div class="silver"><img src="assets/Black_Chess_Rook.png" alt="black chess rook"/></div>
-
-        <div class="silver"><img src="assets/Black_Chess_Pawn.png" alt="black chess pawn"/></div>
-        <div class="red"><img src="assets/Black_Chess_Pawn.png" alt="black chess pawn"/></div>
-        <div class="silver"><img src="assets/Black_Chess_Pawn.png" alt="black chess pawn"/></div>
-        <div class="red"><img src="assets/Black_Chess_Pawn.png" alt="black chess pawn"/></div>
-        <div class="silver"><img src="assets/Black_Chess_Pawn.png" alt="black chess pawn"/></div>
-        <div class="red"><img src="assets/Black_Chess_Pawn.png" alt="black chess pawn"/></div>
-        <div class="silver"><img src="assets/Black_Chess_Pawn.png" alt="black chess pawn"/></div>
-        <div class="red"><img src="assets/Black_Chess_Pawn.png" alt="black chess pawn"/></div>
-
-        <div class="red"></div>
-        <div class="silver"></div>
-        <div class="red"></div>
-        <div class="silver"></div>
-        <div class="red"></div>
-        <div class="silver"></div>
-        <div class="red"></div>
-        <div class="silver"></div>
-
-        <div class="silver"></div>
-        <div class="red"></div>
-        <div class="silver"></div>
-        <div class="red"></div>
-        <div class="silver"></div>
-        <div class="red"></div>
-        <div class="silver"></div>
-        <div class="red"></div>
-
-        <div class="red"></div>
-        <div class="silver"></div>
-        <div class="red"></div>
-        <div class="silver"></div>
-        <div class="red"></div>
-        <div class="silver"></div>
-        <div class="red"></div>
-        <div class="silver"></div>
-
-        <div class="silver"></div>
-        <div class="red"></div>
-        <div class="silver"></div>
-        <div class="red"></div>
-        <div class="silver"></div>
-        <div class="red"></div>
-        <div class="silver"></div>
-        <div class="red"></div>
-
-        <div class="red"><img src="assets/White_Chess_Pawn.png" alt="white chess pawn"/></div>
-        <div class="silver"><img src="assets/White_Chess_Pawn.png" alt="white chess pawn"/></div>
-        <div class="red"><img src="assets/White_Chess_Pawn.png" alt="white chess pawn"/></div>
-        <div class="silver"><img src="assets/White_Chess_Pawn.png" alt="white chess pawn"/></div>
-        <div class="red"><img src="assets/White_Chess_Pawn.png" alt="white chess pawn"/></div>
-        <div class="silver"><img src="assets/White_Chess_Pawn.png" alt="white chess pawn"/></div>
-        <div class="red"><img src="assets/White_Chess_Pawn.png" alt="white chess pawn"/></div>
-        <div class="silver"><img src="assets/White_Chess_Pawn.png" alt="white chess pawn"/></div>
-
-        <div class="silver"><img src="assets/White_Chess_Rook.png" alt="white chess rook"/></div>
-        <div class="red"><img src="assets/White_Chess_Knight.png" alt="white chess knight"/></div>
-        <div class="silver"><img src="assets/White_Chess_Bishop.png" alt="white chess bishop"/></div>
-        <div class="red"><img src="assets/White_Chess_King.png" alt="white chess king"/></div>
-        <div class="silver"><img src="assets/White_Chess_Queen.png" alt="white chess queen"/></div>
-        <div class="red"><img src="assets/White_Chess_Bishop.png" alt="white chess bishop"/></div>
-        <div class="silver"><img src="assets/White_Chess_Knight.png" alt="white chess knight"/></div>
-        <div class="red"><img src="assets/White_Chess_Rook.png" alt="white chess rook"/></div>
-    </div>
     <p class="teamWhite">Team White</p>
+    <p class="turn">It is now Team White's Move</p>
+    <div id="chessboard">
+        <!-- Row A -->
+        <div class="red" id="rowA_8">A8<img id="Rook" src="assets/Black_Chess_Rook.png" alt="black chess rook"/></div>
+        <div class="silver" id="rowA_7">A7<img id="Knight" src="assets/Black_Chess_Knight.png" alt="black chess knight"/></div>
+        <div class="red" id="rowA_6">A6<img id="Bishop" src="assets/Black_Chess_Bishop.png" alt="black chess bishop"/></div>
+        <div class="silver" id="rowA_5">A5<img id="King" src="assets/Black_Chess_King.png" alt="black chess king"/></div>
+        <div class="red" id="rowA_4">A4<img id="Queen" src="assets/Black_Chess_Queen.png" alt="black chess queen" /></div>
+        <div class="silver" id="rowA_3">A3<img  id="Bishop" src="assets/Black_Chess_Bishop.png" alt="black chess bishop"/></div>
+        <div class="red" id="rowA_2">A2<img id="Knight" src="assets/Black_Chess_Knight.png" alt="black chess knight"/></div>
+        <div class="silver" id="rowA_1">A1<img id="Rook" src="assets/Black_Chess_Rook.png" alt="black chess rook"/></div>
+        <!-- Row B -->
+        <div class="silver" id="rowB_8">B8<img id="Pawn" src="assets/Black_Chess_Pawn.png" alt="black chess pawn"/></div>
+        <div class="red" id="rowB_7">B7<img id="Pawn" src="assets/Black_Chess_Pawn.png" alt="black chess pawn"/></div>
+        <div class="silver" id="rowB_6">B6<img id="Pawn" src="assets/Black_Chess_Pawn.png" alt="black chess pawn"/></div>
+        <div class="red" id="rowB_5">B5<img id="Pawn" src="assets/Black_Chess_Pawn.png" alt="black chess pawn"/></div>
+        <div class="silver" id="rowB_4">B4<img id="Pawn" src="assets/Black_Chess_Pawn.png" alt="black chess pawn"/></div>
+        <div class="red" id="rowB_3">B3<img id="Pawn" src="assets/Black_Chess_Pawn.png" alt="black chess pawn"/></div>
+        <div class="silver" id="rowB_2">B2<img id="Pawn" src="assets/Black_Chess_Pawn.png" alt="black chess pawn"/></div>
+        <div class="red" id="rowB_1">B1<img id="Pawn" src="assets/Black_Chess_Pawn.png" alt="black chess pawn"/></div>
+        <!-- Row C -->
+        <div class="red" id="rowC_8">C8</div>
+        <div class="silver" id="rowC_7">C7</div>
+        <div class="red" id="rowC_6">C6</div>
+        <div class="silver" id="rowC_5">C5</div>
+        <div class="red" id="rowC_4">C4</div>
+        <div class="silver" id="rowC_3">C3</div>
+        <div class="red" id="rowC_2">C2</div>
+        <div class="silver" id="rowC_1">C1</div>
+        <!-- Row D -->
+        <div class="silver" id="rowD_8">D8</div>
+        <div class="red" id="rowD_7">D7</div>
+        <div class="silver" id="rowD_6">D6</div>
+        <div class="red" id="rowD_5">D5</div>
+        <div class="silver" id="rowD_4">D4</div>
+        <div class="red" id="rowD_3">D3</div>
+        <div class="silver" id="rowD_2">D2</div>
+        <div class="red" id="rowD_1">D1</div>
+        <!-- Row E -->
+        <div class="red" id="rowE_8">E8</div>
+        <div class="silver" id="rowE_7">E7</div>
+        <div class="red" id="rowE_6">E6</div>
+        <div class="silver" id="rowE_5">E5</div>
+        <div class="red" id="rowE_4">E4</div>
+        <div class="silver" id="rowE_3">E3</div>
+        <div class="red" id="rowE_2">E2</div>
+        <div class="silver" id="rowE_1">E1</div>
+        <!-- Row F -->
+        <div class="silver" id="rowF_8">F8</div>
+        <div class="red" id="rowF_7">F7</div>
+        <div class="silver" id="rowF_6">F6</div>
+        <div class="red" id="rowF_5">F5</div>
+        <div class="silver" id="rowF_4">F4</div>
+        <div class="red" id="rowF_3">F3</div>
+        <div class="silver" id="rowF_2">F2</div>
+        <div class="red" id="rowF_1">F1</div>
+        <!-- Row G -->
+        <div class="red" id="rowG_8">G8<img id="Pawn" src="assets/White_Chess_Pawn.png" alt="white chess pawn"/></div>
+        <div class="silver" id="rowG_7">G7<img id="Pawn" src="assets/White_Chess_Pawn.png" alt="white chess pawn"/></div>
+        <div class="red" id="rowG_6">G6<img id="Pawn" src="assets/White_Chess_Pawn.png" alt="white chess pawn"/></div>
+        <div class="silver" id="rowG_5">G5<img id="Pawn" src="assets/White_Chess_Pawn.png" alt="white chess pawn"/></div>
+        <div class="red" id="rowG_4">G4<img id="Pawn" src="assets/White_Chess_Pawn.png" alt="white chess pawn"/></div>
+        <div class="silver" id="rowG_3">G3<img id="Pawn" src="assets/White_Chess_Pawn.png" alt="white chess pawn"/></div>
+        <div class="red" id="rowG_2">G2<img id="Pawn" src="assets/White_Chess_Pawn.png" alt="white chess pawn"/></div>
+        <div class="silver" id="rowG_1">G1<img id="Pawn" src="assets/White_Chess_Pawn.png" alt="white chess pawn"/></div>
+        <!-- Row H -->
+        <div class="silver" id="rowH_8">H8<img id="Rook" src="assets/White_Chess_Rook.png" alt="white chess rook"/></div>
+        <div class="red" id="rowH_7">H7<img id="Knight" src="assets/White_Chess_Knight.png" alt="white chess knight"/></div>
+        <div class="silver" id="rowH_6">H6<img id="Bishop" src="assets/White_Chess_Bishop.png" alt="white chess bishop"/></div>
+        <div class="red" id="rowH_5">H5<img id="King" src="assets/White_Chess_King.png" alt="white chess king"/></div>
+        <div class="silver" id="rowH_4">H4<img id="Queen" src="assets/White_Chess_Queen.png" alt="white chess queen"/></div>
+        <div class="red" id="rowH_3">H3<img id="Bishop" src="assets/White_Chess_Bishop.png" alt="white chess bishop"/></div>
+        <div class="silver" id="rowH_2">H2<img id="Knight" src="assets/White_Chess_Knight.png" alt="white chess knight"/></div>
+        <div class="red" id="rowH_1">H1<img id="Rook" src="assets/White_Chess_Rook.png" alt="white chess rook"/></div>
+    </div>
 </body>
 </html>
