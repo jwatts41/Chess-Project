@@ -14,5 +14,5 @@ function drop(dropevent) {
   dropevent.preventDefault();
   const data = dropevent.dataTransfer.getData("text");
   dropevent.target.appendChild(document.getElementById(data));
-  document.getElementById("drag").style.color = 'black';
+  document.getElementsByClassName("Pawn").style.color = 'black';
 }
