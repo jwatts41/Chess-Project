@@ -1,7 +1,7 @@
 // moving the pieces sourced from mdn web
 
 function allowDrop(allowdropevent) {
-  allowdropevent.target.style.color = 'blue';
+  allowdropevent.target.style.color = 'black';
   allowdropevent.preventDefault();
 }
 
