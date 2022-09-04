@@ -15,77 +15,77 @@
     <p class="turn">Who's Turn</p>
     <div id="chessboard">
         <!-- Row A -->
-        <div class="red" id="rowA_8">A8<img class="Rook" draggable="true" src="assets/Black_Chess_Rook.png" alt="black chess rook"/></div>
-        <div class="silver" id="rowA_7">A7<img class="Knight" draggable="true" src="assets/Black_Chess_Knight.png" alt="black chess knight"/></div>
-        <div class="red" id="rowA_6">A6<img class="Bishop" draggable="true" src="assets/Black_Chess_Bishop.png" alt="black chess bishop"/></div>
-        <div class="silver" id="rowA_5">A5<img id="King" draggable="true" src="assets/Black_Chess_King.png" alt="black chess king"/></div>
-        <div class="red" id="rowA_4">A4<img class="Queen" draggable="true" src="assets/Black_Chess_Queen.png" alt="black chess queen" /></div>
-        <div class="silver" id="rowA_3">A3<img  class="Bishop" draggable="true" src="assets/Black_Chess_Bishop.png" alt="black chess bishop"/></div>
-        <div class="red" id="rowA_2">A2<img class="Knight" draggable="true" src="assets/Black_Chess_Knight.png" alt="black chess knight"/></div>
-        <div class="silver" id="rowA_1">A1<img class="Rook" draggable="true" src="assets/Black_Chess_Rook.png" alt="black chess rook"/></div>
+        <div class="red" id="rowA_8" ondrop="drop(event)" ondragover="allowDrop(event)">A8<img class="Rook" id="BRook" draggable="true" ondragstart="drag(event)" src="assets/Black_Chess_Rook.png" alt="black chess rook"/></div>
+        <div class="silver" id="rowA_7" ondrop="drop(event)" ondragover="allowDrop(event)">A7<img class="Knight" id="BKnight" draggable="true" ondragstart="drag(event)" src="assets/Black_Chess_Knight.png" alt="black chess knight"/></div>
+        <div class="red" id="rowA_6" ondrop="drop(event)" ondragover="allowDrop(event)">A6<img class="Bishop" id="BBishop" draggable="true" ondragstart="drag(event)" src="assets/Black_Chess_Bishop.png" alt="black chess bishop"/></div>
+        <div class="silver" id="rowA_5" ondrop="drop(event)" ondragover="allowDrop(event)">A5<img id="King" id="BKing" draggable="true" ondragstart="drag(event)" src="assets/Black_Chess_King.png" alt="black chess king"/></div>
+        <div class="red" id="rowA_4" ondrop="drop(event)" ondragover="allowDrop(event)">A4<img class="Queen" id="BKing" draggable="true" ondragstart="drag(event)" src="assets/Black_Chess_Queen.png" alt="black chess queen" /></div>
+        <div class="silver" id="rowA_3" ondrop="drop(event)" ondragover="allowDrop(event)">A3<img  class="Bishop" id="BBishop2" draggable="true" ondragstart="drag(event)" src="assets/Black_Chess_Bishop.png" alt="black chess bishop"/></div>
+        <div class="red" id="rowA_2" ondrop="drop(event)" ondragover="allowDrop(event)">A2<img class="Knight" id="BKnight2" draggable="true" ondragstart="drag(event)" src="assets/Black_Chess_Knight.png" alt="black chess knight"/></div>
+        <div class="silver" id="rowA_1" ondrop="drop(event)" ondragover="allowDrop(event)">A1<img class="Rook" id="Brook2" draggable="true" ondragstart="drag(event)" src="assets/Black_Chess_Rook.png" alt="black chess rook"/></div>
         <!-- Row B -->
-        <div class="silver" id="rowB_8">B8<img class="Pawn" draggable="true" src="assets/Black_Chess_Pawn.png" alt="black chess pawn"/></div>
-        <div class="red" id="rowB_7">B7<img class="Pawn" draggable="true" src="assets/Black_Chess_Pawn.png" alt="black chess pawn"/></div>
-        <div class="silver" id="rowB_6">B6<img class="Pawn" draggable="true" src="assets/Black_Chess_Pawn.png" alt="black chess pawn"/></div>
-        <div class="red" id="rowB_5">B5<img class="Pawn" draggable="true" src="assets/Black_Chess_Pawn.png" alt="black chess pawn"/></div>
-        <div class="silver" id="rowB_4">B4<img class="Pawn" draggable="true" src="assets/Black_Chess_Pawn.png" alt="black chess pawn"/></div>
-        <div class="red" id="rowB_3">B3<img class="Pawn" draggable="true" src="assets/Black_Chess_Pawn.png" alt="black chess pawn"/></div>
-        <div class="silver" id="rowB_2">B2<img class="Pawn" draggable="true" src="assets/Black_Chess_Pawn.png" alt="black chess pawn"/></div>
-        <div class="red" id="rowB_1">B1<img class="Pawn" draggable="true" src="assets/Black_Chess_Pawn.png" alt="black chess pawn"/></div>
+        <div class="silver" id="rowB_8" ondrop="drop(event)" ondragover="allowDrop(event)">B8<img class="Pawn" id="drag9" draggable="true" ondragstart="drag(event)" src="assets/Black_Chess_Pawn.png" alt="black chess pawn"/></div>
+        <div class="red" id="rowB_7" ondrop="drop(event)" ondragover="allowDrop(event)">B7<img class="Pawn" id="drag10" draggable="true" ondragstart="drag(event)" src="assets/Black_Chess_Pawn.png" alt="black chess pawn"/></div>
+        <div class="silver" id="rowB_6" ondrop="drop(event)" ondragover="allowDrop(event)">B6<img class="Pawn" id="drag11" draggable="true" ondragstart="drag(event)" src="assets/Black_Chess_Pawn.png" alt="black chess pawn"/></div>
+        <div class="red" id="rowB_5" ondrop="drop(event)" ondragover="allowDrop(event)">B5<img class="Pawn" id="drag12" draggable="true" ondragstart="drag(event)" src="assets/Black_Chess_Pawn.png" alt="black chess pawn"/></div>
+        <div class="silver" id="rowB_4" ondrop="drop(event)" ondragover="allowDrop(event)">B4<img class="Pawn" id="drag13" draggable="true" ondragstart="drag(event)" src="assets/Black_Chess_Pawn.png" alt="black chess pawn"/></div>
+        <div class="red" id="rowB_3" ondrop="drop(event)" ondragover="allowDrop(event)">B3<img class="Pawn" id="drag14" draggable="true" ondragstart="drag(event)" src="assets/Black_Chess_Pawn.png" alt="black chess pawn"/></div>
+        <div class="silver" id="rowB_2" ondrop="drop(event)" ondragover="allowDrop(event)">B2<img class="Pawn" id="drag15" draggable="true" ondragstart="drag(event)" src="assets/Black_Chess_Pawn.png" alt="black chess pawn"/></div>
+        <div class="red" id="rowB_1" ondrop="drop(event)" ondragover="allowDrop(event)">B1<img class="Pawn" id="drag16" draggable="true" ondragstart="drag(event)" src="assets/Black_Chess_Pawn.png" alt="black chess pawn"/></div>
         <!-- Row C -->
-        <div class="red" id="rowC_8">C8</div>
-        <div class="silver" id="rowC_7">C7</div>
-        <div class="red" id="rowC_6">C6</div>
-        <div class="silver" id="rowC_5">C5</div>
-        <div class="red" id="rowC_4">C4</div>
-        <div class="silver" id="rowC_3">C3</div>
-        <div class="red" id="rowC_2">C2</div>
-        <div class="silver" id="rowC_1">C1</div>
+        <div class="red" id="rowC_8" ondrop="drop(event)" ondragover="allowDrop(event)">C8</div>
+        <div class="silver" id="rowC_7" ondrop="drop(event)" ondragover="allowDrop(event)">C7</div>
+        <div class="red" id="rowC_6" ondrop="drop(event)" ondragover="allowDrop(event)">C6</div>
+        <div class="silver" id="rowC_5" ondrop="drop(event)" ondragover="allowDrop(event)">C5</div>
+        <div class="red" id="rowC_4" ondrop="drop(event)" ondragover="allowDrop(event)">C4</div>
+        <div class="silver" id="rowC_3" ondrop="drop(event)" ondragover="allowDrop(event)">C3</div>
+        <div class="red" id="rowC_2" ondrop="drop(event)" ondragover="allowDrop(event)">C2</div>
+        <div class="silver" id="rowC_1" ondrop="drop(event)" ondragover="allowDrop(event)">C1</div>
         <!-- Row D -->
-        <div class="silver" id="rowD_8">D8</div>
-        <div class="red" id="rowD_7">D7</div>
-        <div class="silver" id="rowD_6">D6</div>
-        <div class="red" id="rowD_5">D5</div>
-        <div class="silver" id="rowD_4">D4</div>
-        <div class="red" id="rowD_3">D3</div>
-        <div class="silver" id="rowD_2">D2</div>
-        <div class="red" id="rowD_1">D1</div>
+        <div class="silver" id="rowD_8" ondrop="drop(event)" ondragover="allowDrop(event)">D8</div>
+        <div class="red" id="rowD_7" ondrop="drop(event)" ondragover="allowDrop(event)">D7</div>
+        <div class="silver" id="rowD_6" ondrop="drop(event)" ondragover="allowDrop(event)">D6</div>
+        <div class="red" id="rowD_5" ondrop="drop(event)" ondragover="allowDrop(event)">D5</div>
+        <div class="silver" id="rowD_4" ondrop="drop(event)" ondragover="allowDrop(event)">D4</div>
+        <div class="red" id="rowD_3" ondrop="drop(event)" ondragover="allowDrop(event)">D3</div>
+        <div class="silver" id="rowD_2" ondrop="drop(event)" ondragover="allowDrop(event)">D2</div>
+        <div class="red" id="rowD_1" ondrop="drop(event)" ondragover="allowDrop(event)">D1</div>
         <!-- Row E -->
-        <div class="red" id="rowE_8">E8</div>
-        <div class="silver" id="rowE_7">E7</div>
-        <div class="red" id="rowE_6">E6</div>
-        <div class="silver" id="rowE_5">E5</div>
-        <div class="red" id="rowE_4">E4</div>
-        <div class="silver" id="rowE_3">E3</div>
-        <div class="red" id="rowE_2">E2</div>
-        <div class="silver" id="rowE_1">E1</div>
+        <div class="red" id="rowE_8" ondrop="drop(event)" ondragover="allowDrop(event)">E8</div>
+        <div class="silver" id="rowE_7" ondrop="drop(event)" ondragover="allowDrop(event)">E7</div>
+        <div class="red" id="rowE_6" ondrop="drop(event)" ondragover="allowDrop(event)">E6</div>
+        <div class="silver" id="rowE_5" ondrop="drop(event)" ondragover="allowDrop(event)">E5</div>
+        <div class="red" id="rowE_4" ondrop="drop(event)" ondragover="allowDrop(event)">E4</div>
+        <div class="silver" id="rowE_3" ondrop="drop(event)" ondragover="allowDrop(event)">E3</div>
+        <div class="red" id="rowE_2" ondrop="drop(event)" ondragover="allowDrop(event)">E2</div>
+        <div class="silver" id="rowE_1" ondrop="drop(event)" ondragover="allowDrop(event)">E1</div>
         <!-- Row F -->
-        <div class="silver" id="rowF_8">F8</div>
-        <div class="red" id="rowF_7">F7</div>
-        <div class="silver" id="rowF_6">F6</div>
-        <div class="red" id="rowF_5">F5</div>
-        <div class="silver" id="rowF_4">F4</div>
-        <div class="red" id="rowF_3">F3</div>
-        <div class="silver" id="rowF_2">F2</div>
+        <div class="silver" id="rowF_8" ondrop="drop(event)" ondragover="allowDrop(event)">F8</div>
+        <div class="red" id="rowF_7" ondrop="drop(event)" ondragover="allowDrop(event)">F7</div>
+        <div class="silver" id="rowF_6" ondrop="drop(event)" ondragover="allowDrop(event)">F6</div>
+        <div class="red" id="rowF_5" ondrop="drop(event)" ondragover="allowDrop(event)">F5</div>
+        <div class="silver" id="rowF_4" ondrop="drop(event)" ondragover="allowDrop(event)">F4</div>
+        <div class="red" id="rowF_3" ondrop="drop(event)" ondragover="allowDrop(event)">F3</div>
+        <div class="silver" id="rowF_2" ondrop="drop(event)" ondragover="allowDrop(event)">F2</div>
         <div class="red" id="rowF_1" ondrop="drop(event)" ondragover="allowDrop(event)">F1</div>
         <!-- Row G -->
         <div class="red" id="rowG_8" ondrop="drop(event)" ondragover="allowDrop(event)">G8<img class="Pawn" id="drag" draggable="true" ondragstart="drag(event)" src="assets/White_Chess_Pawn.png" alt="white chess pawn"/></div>
-        <div class="silver" id="rowG_7" ondrop="drop(event)" ondragover="allowDrop(event)">G7<img class="Pawn"  draggable="true" ondragstart="drag(event)" src="assets/White_Chess_Pawn.png" alt="white chess pawn"/></div>
-        <div class="red" id="rowG_6">G6<img class="Pawn" draggable="true" src="assets/White_Chess_Pawn.png" alt="white chess pawn"/></div>
-        <div class="silver" id="rowG_5">G5<img class="Pawn" draggable="true" src="assets/White_Chess_Pawn.png" alt="white chess pawn"/></div>
-        <div class="red" id="rowG_4">G4<img class="Pawn" draggable="true" src="assets/White_Chess_Pawn.png" alt="white chess pawn"/></div>
-        <div class="silver" id="rowG_3">G3<img class="Pawn" draggable="true" src="assets/White_Chess_Pawn.png" alt="white chess pawn"/></div>
-        <div class="red" id="rowG_2">G2<img class="Pawn" draggable="true" src="assets/White_Chess_Pawn.png" alt="white chess pawn"/></div>
-        <div class="silver" id="rowG_1">G1<img class="Pawn" draggable="true" src="assets/White_Chess_Pawn.png" alt="white chess pawn"/></div>
+        <div class="silver" id="rowG_7" ondrop="drop(event)" ondragover="allowDrop(event)">G7<img class="Pawn" id="drag2" draggable="true" ondragstart="drag(event)" src="assets/White_Chess_Pawn.png" alt="white chess pawn"/></div>
+        <div class="red" id="rowG_6" ondrop="drop(event)" ondragover="allowDrop(event)">G6<img class="Pawn" id="drag3" draggable="true" ondragstart="drag(event)" src="assets/White_Chess_Pawn.png" alt="white chess pawn"/></div>
+        <div class="silver" id="rowG_5" ondrop="drop(event)" ondragover="allowDrop(event)">G5<img class="Pawn" id="drag4" draggable="true" ondragstart="drag(event)" src="assets/White_Chess_Pawn.png" alt="white chess pawn"/></div>
+        <div class="red" id="rowG_4" ondrop="drop(event)" ondragover="allowDrop(event)">G4<img class="Pawn" id="drag5" draggable="true" ondragstart="drag(event)" src="assets/White_Chess_Pawn.png" alt="white chess pawn"/></div>
+        <div class="silver" id="rowG_3" ondrop="drop(event)" ondragover="allowDrop(event)">G3<img class="Pawn" id="drag6" draggable="true" ondragstart="drag(event)" src="assets/White_Chess_Pawn.png" alt="white chess pawn"/></div>
+        <div class="red" id="rowG_2" ondrop="drop(event)" ondragover="allowDrop(event)">G2<img class="Pawn" id="drag7" draggable="true" ondragstart="drag(event)" src="assets/White_Chess_Pawn.png" alt="white chess pawn"/></div>
+        <div class="silver" id="rowG_1" ondrop="drop(event)" ondragover="allowDrop(event)">G1<img class="Pawn" id="drag8" draggable="true" ondragstart="drag(event)" src="assets/White_Chess_Pawn.png" alt="white chess pawn"/></div>
         <!-- Row H -->
-        <div class="silver" id="rowH_8">H8<img class="Rook" draggable="true"  src="assets/White_Chess_Rook.png" alt="white chess rook"/></div>
-        <div class="red" id="rowH_7">H7<img class="Knight" draggable="true" src="assets/White_Chess_Knight.png" alt="white chess knight"/></div>
-        <div class="silver" id="rowH_6">H6<img class="Bishop" draggable="true" src="assets/White_Chess_Bishop.png" alt="white chess bishop"/></div>
-        <div class="red" id="rowH_5">H5<img class="King" draggable="true" src="assets/White_Chess_King.png" alt="white chess king"/></div>
-        <div class="silver" id="rowH_4">H4<img class="Queen" draggable="true" src="assets/White_Chess_Queen.png" alt="white chess queen"/></div>
-        <div class="red" id="rowH_3">H3<img class="Bishop" draggable="true" src="assets/White_Chess_Bishop.png" alt="white chess bishop"/></div>
-        <div class="silver" id="rowH_2">H2<img class="Knight" draggable="true" src="assets/White_Chess_Knight.png" alt="white chess knight"/></div>
-        <div class="red" id="rowH_1">H1<img class="Rook" draggable="true" src="assets/White_Chess_Rook.png" alt="white chess rook"/></div>
+        <div class="silver" id="rowH_8" ondrop="drop(event)" ondragover="allowDrop(event)">H8<img class="Rook" id="WRook" draggable="true" ondragstart="drag(event)" src="assets/White_Chess_Rook.png" alt="white chess rook"/></div>
+        <div class="red" id="rowH_7" ondrop="drop(event)" ondragover="allowDrop(event)">H7<img class="Knight" id="WKnight" draggable="true" ondragstart="drag(event)" src="assets/White_Chess_Knight.png" alt="white chess knight"/></div>
+        <div class="silver" id="rowH_6" ondrop="drop(event)" ondragover="allowDrop(event)">H6<img class="Bishop" id="WBishop" draggable="true" ondragstart="drag(event)" src="assets/White_Chess_Bishop.png" alt="white chess bishop"/></div>
+        <div class="red" id="rowH_5" ondrop="drop(event)" ondragover="allowDrop(event)">H5<img class="King" id="WKing" draggable="true" ondragstart="drag(event)" src="assets/White_Chess_King.png" alt="white chess king"/></div>
+        <div class="silver" id="rowH_4" ondrop="drop(event)" ondragover="allowDrop(event)">H4<img class="Queen" id="WQueen" draggable="true" ondragstart="drag(event)" src="assets/White_Chess_Queen.png" alt="white chess queen"/></div>
+        <div class="red" id="rowH_3" ondrop="drop(event)" ondragover="allowDrop(event)">H3<img class="Bishop" id="Wbishop2" draggable="true" ondragstart="drag(event)" src="assets/White_Chess_Bishop.png" alt="white chess bishop"/></div>
+        <div class="silver" id="rowH_2" ondrop="drop(event)" ondragover="allowDrop(event)">H2<img class="Knight" id="WKnight2" draggable="true" ondragstart="drag(event)" src="assets/White_Chess_Knight.png" alt="white chess knight"/></div>
+        <div class="red" id="rowH_1" ondrop="drop(event)" ondragover="allowDrop(event)">H1<img class="Rook" id="WRook2" draggable="true" ondragstart="drag(event)" src="assets/White_Chess_Rook.png" alt="white chess rook"/></div>
     </div>
 </body>
 </html>

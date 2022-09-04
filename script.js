@@ -14,7 +14,7 @@ function drop(dropevent) {
   dropevent.preventDefault();
   const data = dropevent.dataTransfer.getData("text");
   dropevent.target.append(document.getElementById(data));
-  document.getElementById("drag").style.color = 'black'
+  document.getElementById("").style.color = 'black'
 }
 
 
