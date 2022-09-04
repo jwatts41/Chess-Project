@@ -1,4 +1,4 @@
-// moving the pieces sourced from mdn web docs
+// moving the pieces sourced from mdn web
 
 function allowDrop(allowdropevent) {
   allowdropevent.target.style.color = 'blue';
@@ -13,6 +13,10 @@ function drag(dragevent) {
 function drop(dropevent) {
   dropevent.preventDefault();
   const data = dropevent.dataTransfer.getData("text");
-  dropevent.target.appendChild(document.getElementById(data));
-  document.getElementsById("drag").style.color = 'black';
+  dropevent.target.append(document.getElementById(data));
+  document.getElementById("drag").style.color = 'black'
 }
+
+
+
+
