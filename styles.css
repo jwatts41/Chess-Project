@@ -15,9 +15,12 @@ body {
     height: 640px;
     width: 640px;
     border: 5px solid gray;
-    margin: 125px;
+    margin-top: 88px;
+    margin-bottom: 70px;
+    margin-left: 80px;
+    margin-right: 80px;
     position: absolute;
-    left: 375px;
+    left: 400px;
     
 }
 
@@ -52,10 +55,32 @@ p {
 }
 
 h1 {
-    color: white
+    color: white;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 680px;
+    margin-top: 10px;
+
+    
 }
 
+.teamBlack {
+    position: absolute;
+    color: white;
+    margin-top: 60px;
+    left: 485px;
+    font-size: large;
+}
 
+.teamWhite {
+    position: absolute;
+    color: white;
+    margin-top: 742px;
+    left: 1040px;
+    font-size: large;
+
+}
 
 
 
