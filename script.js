@@ -14,7 +14,6 @@ function drop(dropevent) {
   dropevent.preventDefault();
   const data = dropevent.dataTransfer.getData("text");
   dropevent.target.append(document.getElementById(data));
-  document.getElementById("").style.color = 'black'
 }
 
 
