@@ -1,20 +1,26 @@
-// moving the pieces sourced from mdn web
+// moving the pieces sourced from mdn web and stack overflow
 
 function allowDrop(allowdropevent) {
-  allowdropevent.target.style.color = 'black';
   allowdropevent.preventDefault();
 }
 
 function drag(dragevent) {
   dragevent.dataTransfer.setData("text", dragevent.target.id);
-  dragevent.target.style.color = 'green';
 }
 
 function drop(dropevent) {
   dropevent.preventDefault();
-  const data = dropevent.dataTransfer.getData("text");
-  dropevent.target.append(document.getElementById(data));
+  let data = dropevent.dataTransfer.getData("text");
+  let s = document.getElementById(data);
+  dropevent.target.appendChild(s);
+  dropevent.target.src=s.src;
 }
+
+
+ 
+
+
+
 
 
 
