@@ -16,6 +16,16 @@ function drop(dropevent) {
   dropevent.target.src=s.src;
 }
 
+// reset board button with confirmation sourced from quackit.com and W3 schools
+function confirmBoardRefresh() {
+  let yesToRefresh = confirm("Are you sure you would like to clear the board?");
+  if (yesToRefresh){
+    setTimeout("location.reload(true)", 1000);
+  }
+}
+
+
+
 
 
 

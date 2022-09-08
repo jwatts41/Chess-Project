@@ -70,7 +70,7 @@ h1 {
     color: white;
     margin-top: 60px;
     left: 485px;
-    font-size: large;
+    font-size: larger;
 }
 
 .teamWhite {
@@ -78,7 +78,7 @@ h1 {
     color: white;
     margin-top: 742px;
     left: 1040px;
-    font-size: large;
+    font-size: larger;
 
 }
 
@@ -86,7 +86,7 @@ h1 {
     position: absolute;
     margin-top: 785px;
     padding: 5px;
-    left: 760px;
+    left: 745px;
     font-size: large;
     cursor: pointer;
     color: red;
