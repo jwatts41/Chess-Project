@@ -22,20 +22,20 @@ function confirmBoardRefresh() {
   if (yesToRefresh){
     setTimeout("location.reload(true)", 500);
   }
-}
+} 
 
 //ascII values sourced from asciitable.com and programiz.com 
 
 // program to find the ASCII value of a character
 
 // take input from the user
-const string = prompt('Enter a character: ');
+/*const string = prompt('Enter a character: ');
 
 // convert into ASCII value
 const result = string.codePointAt(0);
 
 console.log(`The ASCII value is: ${result}`);
-
+*/
 
 
 
